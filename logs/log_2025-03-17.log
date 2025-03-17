@@ -1,0 +1,110 @@
+2025-03-17 01:19:16,723 - INFO - Succesfully read the YAML file
+2025-03-17 01:19:16,724 - INFO - Data Ingestion Started....
+2025-03-17 01:19:16,724 - INFO - Starting Data Ingestion Process....
+2025-03-17 01:19:19,727 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-03-17 01:19:20,730 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [Errno 65] No route to host
+2025-03-17 01:19:22,653 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 64] Host is down
+2025-03-17 01:19:22,653 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-03-17 01:19:22,653 - ERROR - Error while downloading data from GCP
+2025-03-17 01:19:22,653 - ERROR - CustomException : Error in /Users/naaz/data1/official/myfunprojects/MLops/mlops-project-2/Code/src/data_ingestion.py , line 24 : Failed to download data
+2025-03-17 01:19:22,654 - INFO - Data Ingestion DONE...
+2025-03-17 01:22:30,668 - INFO - Succesfully read the YAML file
+2025-03-17 01:22:30,668 - INFO - Data Ingestion Started....
+2025-03-17 01:22:30,668 - INFO - Starting Data Ingestion Process....
+2025-03-17 01:22:33,671 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-03-17 01:22:37,624 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-03-17 01:22:39,689 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 64] Host is down
+2025-03-17 01:22:39,689 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-03-17 01:22:39,689 - ERROR - Error while downloading data from GCP
+2025-03-17 01:22:39,689 - ERROR - CustomException : Error in /Users/naaz/data1/official/myfunprojects/MLops/mlops-project-2/Code/src/data_ingestion.py , line 24 : Failed to download data
+2025-03-17 01:22:39,689 - INFO - Data Ingestion DONE...
+2025-03-17 01:25:36,624 - INFO - Succesfully read the YAML file
+2025-03-17 01:25:36,624 - INFO - Data Ingestion Started....
+2025-03-17 01:25:36,624 - INFO - Starting Data Ingestion Process....
+2025-03-17 01:25:38,162 - INFO - Downloading Smaller Files ie anime and anime_with synopsis
+2025-03-17 01:25:38,594 - INFO - Downloading Smaller Files ie anime and anime_with synopsis
+2025-03-17 01:26:25,836 - INFO - Data Ingestion DONE...
+2025-03-17 01:51:31,738 - INFO - DataProcessing Intialized
+2025-03-17 01:51:41,925 - INFO - Data loaded sucesfully for Data Processing
+2025-03-17 01:51:44,154 - INFO - Filtered users sucesfully...
+2025-03-17 01:51:56,517 - INFO - Scalind done for Processing 
+2025-03-17 01:51:57,630 - INFO - Encoding done for Users and Anime
+2025-03-17 01:52:06,611 - INFO - Data splitted sucesfullyy
+2025-03-17 01:52:08,190 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-03-17 01:52:08,291 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-03-17 01:52:08,328 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-03-17 01:52:08,377 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-03-17 01:52:14,329 - ERROR - Error in /Users/naaz/data1/official/myfunprojects/MLops/mlops-project-2/Code/src/data_processing.py , line 113 : Failed to save artifacts data
+2025-03-17 01:59:45,395 - INFO - Succesfully read the YAML file
+2025-03-17 01:59:45,395 - INFO - Data Ingestion Started....
+2025-03-17 01:59:45,395 - INFO - Starting Data Ingestion Process....
+2025-03-17 01:59:46,542 - INFO - Downloading Smaller Files ie anime and anime_with synopsis
+2025-03-17 01:59:46,987 - INFO - Downloading Smaller Files ie anime and anime_with synopsis
+2025-03-17 02:01:01,826 - INFO - Data Ingestion DONE...
+2025-03-17 02:01:23,286 - INFO - Succesfully read the YAML file
+2025-03-17 02:01:23,286 - INFO - Data Ingestion Started....
+2025-03-17 02:01:23,286 - INFO - Starting Data Ingestion Process....
+2025-03-17 02:01:24,283 - INFO - Downloading Smaller Files ie anime and anime_with synopsis
+2025-03-17 02:01:24,835 - INFO - Downloading Smaller Files ie anime and anime_with synopsis
+2025-03-17 02:03:01,756 - INFO - Large file detected Only downloading 5M rows
+2025-03-17 02:03:01,757 - INFO - Data Ingestion Completed...
+2025-03-17 02:03:01,757 - INFO - Data Ingestion DONE...
+2025-03-17 02:04:24,234 - INFO - DataProcessing Intialized
+2025-03-17 02:04:24,247 - INFO - Data loaded sucesfully for Data Processing
+2025-03-17 02:04:24,253 - INFO - Filtered users sucesfully...
+2025-03-17 02:04:24,261 - INFO - Scalind done for Processing 
+2025-03-17 02:04:24,265 - INFO - Encoding done for Users and Anime
+2025-03-17 02:04:24,268 - INFO - Data splitted sucesfullyy
+2025-03-17 02:04:24,268 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-03-17 02:04:24,268 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-03-17 02:04:24,276 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-03-17 02:04:24,283 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-03-17 02:04:24,315 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-03-17 02:04:26,990 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-03-17 02:04:26,992 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-03-17 02:05:00,619 - INFO - Model Training & COMET ML initialized..
+2025-03-17 02:05:00,624 - INFO - Data loaded sucesfully for Model Trainig
+2025-03-17 02:05:00,632 - INFO - Succesfully read the YAML file
+2025-03-17 02:05:00,633 - INFO - Loaded configuration from config.yaml
+2025-03-17 02:05:01,182 - INFO - Model created sucesfully....
+2025-03-17 02:05:02,306 - INFO - Model training Completedd.....
+2025-03-17 02:05:02,306 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-17 02:05:02,318 - INFO - Model saved to artifacts/model/model.h5
+2025-03-17 02:05:02,319 - INFO - Extracting weights for user_embedding
+2025-03-17 02:05:02,320 - INFO - Extracting weights for anime_embedding
+2025-03-17 02:05:02,334 - INFO - User and Anime weights saved sucesfully....
+2025-03-17 02:24:54,061 - INFO - Model Training & COMET ML initialized..
+2025-03-17 02:24:54,073 - INFO - Data loaded sucesfully for Model Trainig
+2025-03-17 02:24:54,082 - INFO - Succesfully read the YAML file
+2025-03-17 02:24:54,082 - INFO - Loaded configuration from config.yaml
+2025-03-17 02:24:54,162 - INFO - Model created sucesfully....
+2025-03-17 02:24:55,228 - INFO - Model training Completedd.....
+2025-03-17 02:24:55,228 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-17 02:24:55,242 - INFO - Model saved to artifacts/model/model.h5
+2025-03-17 02:24:55,242 - INFO - Extracting weights for user_embedding
+2025-03-17 02:24:55,243 - INFO - Extracting weights for anime_embedding
+2025-03-17 02:24:55,257 - INFO - User and Anime weights saved sucesfully....
+2025-03-17 02:40:42,135 - INFO - DataProcessing Intialized
+2025-03-17 02:40:42,149 - INFO - Data loaded sucesfully for Data Processing
+2025-03-17 02:40:42,156 - INFO - Filtered users sucesfully...
+2025-03-17 02:40:42,163 - INFO - Scalind done for Processing 
+2025-03-17 02:40:42,166 - INFO - Encoding done for Users and Anime
+2025-03-17 02:40:42,170 - INFO - Data splitted sucesfullyy
+2025-03-17 02:40:42,170 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-03-17 02:40:42,170 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-03-17 02:40:42,178 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-03-17 02:40:42,185 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-03-17 02:40:42,216 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-03-17 02:40:44,793 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-03-17 02:40:44,795 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-03-17 02:40:48,670 - INFO - Model Training & COMET ML initialized..
+2025-03-17 02:40:48,671 - INFO - Data loaded sucesfully for Model Trainig
+2025-03-17 02:40:48,677 - INFO - Succesfully read the YAML file
+2025-03-17 02:40:48,677 - INFO - Loaded configuration from config.yaml
+2025-03-17 02:40:48,778 - INFO - Model created sucesfully....
+2025-03-17 02:40:49,819 - INFO - Model training Completedd.....
+2025-03-17 02:40:49,819 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-17 02:40:49,831 - INFO - Model saved to artifacts/model/model.h5
+2025-03-17 02:40:49,831 - INFO - Extracting weights for user_embedding
+2025-03-17 02:40:49,833 - INFO - Extracting weights for anime_embedding
+2025-03-17 02:40:49,842 - INFO - User and Anime weights saved sucesfully....
