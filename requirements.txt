@@ -10,3 +10,4 @@ dvc-gs
 flask
 joblib
 wordcloud
+h5py
