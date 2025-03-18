@@ -8,6 +8,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 RUN apt-get update && apt-get install -y \
     build-essential \
     libatlas-base-dev \
+    pkg-config \
     libhdf5-dev \
     libprotobuf-dev \
     protobuf-compiler \
