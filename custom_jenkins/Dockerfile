@@ -1,11 +1,11 @@
-# Use the Jenkins official image as the base image (ensure ARM compatibility)
+# Use the Jenkins official image as the base image (ensure amd64 compatibility)
 FROM jenkins/jenkins:lts
 
 # Switch to root user to install dependencies (to install Docker and utilities)
 USER root
 
-# Enable arm64 architecture (important for Mac M1/M2)
-RUN dpkg --add-architecture arm64
+# Enable amd64 architecture (important for compatibility with x86 systems)
+RUN dpkg --add-architecture amd64
 
 # Install Docker
 RUN apt-get update -y && \
@@ -14,7 +14,7 @@ RUN apt-get update -y && \
     curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg && \
     chmod a+r /etc/apt/keyrings/docker.gpg && \
     echo \
-      "deb [arch=arm64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bullseye stable" | \
+      "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bullseye stable" | \
       tee /etc/apt/sources.list.d/docker.list > /dev/null && \
     apt-get update -y && \
     apt-get install -y docker-ce docker-ce-cli containerd.io && \
